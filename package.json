@@ -1,0 +1,14 @@
+{
+  "name": "transaction-ledger-api",
+  "version": "1.0.0",
+  "description": "Atomic transaction ledger API with account balances and transfers",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  }
+}
